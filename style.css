@@ -41,3 +41,27 @@ a {
 }
 
 /* CSS for the second part of the page */
+
+.mainpage {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 800;
+  color: gray;
+}
+
+.buttonbox {
+  background: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.image {
+  pointer-events: none;
+}
