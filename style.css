@@ -45,13 +45,27 @@ a {
 .mainpage {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #1f2937;
 }
 
 h2 {
   font-size: 48px;
   font-weight: 800;
-  color: gray;
+  color: #f9faf8;
+  font-family: sans-serif;
+}
+
+.maintext {
+  width: 455px;
+}
+
+.secondarytext {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-family: sans-serif;
 }
 
 .buttonbox {
@@ -65,3 +79,21 @@ h2 {
 .image {
   pointer-events: none;
 }
+
+.signup {
+  font-size: 100%;
+  font-family: sans-serif;
+  border: 0;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 5px;
+  background: #3882f6;
+  color: white;
+  font-weight: bold;
+}
+
+.signup:hover {
+  background: #015ff5;
+}
+
+/* CSS for the third part of the page */
