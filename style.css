@@ -167,3 +167,40 @@ h3 {
 }
 
 /* CSS "Call to action" */
+
+.action {
+  margin: 100px 200px;
+  padding: 50px 100px;
+  background: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+h4 {
+  font-size: 24px;
+  color: #f9faf8;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.actiontext {
+  color: #e5e7eb;
+  font-family: sans-serif;
+}
+
+.signupbottom {
+  font-size: 100%;
+  font-family: sans-serif;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 5px;
+  background: #3882f6;
+  color: white;
+  font-weight: bold;
+}
+
+.signupbottom:hover {
+  background: #015ff5;
+}
